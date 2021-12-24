@@ -6,6 +6,18 @@ namespace desafio3
     {
         static void Main(string[] args)
         {
+            /*
+             * Exercício 3/21:
+
+               Fazer um algoritmo para ler um número inteiro e imprimir este número na tela apenas se o seu valor for maior do que 100, caso contrário imprima na tela 0. 
+
+               Como deve funcionar:
+
+               Receber um número;
+               Criar a condição para verificar se o número é maior do que 100;
+               Mostrar o resultado na tela;
+            */
+
             Console.Write("Digite um número qualquer:");
             int number = int.Parse(Console.ReadLine());
 

@@ -6,8 +6,18 @@ namespace desafio4
     {
         static void Main(string[] args)
         {
-            int maior;
+            /*
+             * Exercício 4/21:
 
+               Fazer um algoritmo para ler 3 números inteiro e mostrar na tela apenas o maior número entre os 3.
+
+               Como deve funcionar:
+
+               Receber 3 números;
+               Verificar o maior número entre os 3;
+               Mostrar o resultado na tela;
+            */
+            
             Console.Write("Digite o primeiro número:");
             int one = int.Parse(Console.ReadLine());
             Console.Write("Digite o segundo número:");
@@ -15,21 +25,19 @@ namespace desafio4
             Console.Write("Digite o terceiro número:");
             int three = int.Parse(Console.ReadLine());
 
-            if (one >= two && one >= three)
-            {
-                maior = one;
-            }
-            else if(two >= one && two >= three)
+            int maior = one;
+            if (one <= two && two >= three)
             {
                 maior = two;
             }
-
-            else if(three >= one && three >= two)
+            else if (one <= three && three >= two)
             {
-                maior  = three;
+                maior = three;
             }
 
-            Console.WriteLine(value: $"O maior número é ");
+            Console.WriteLine($"O maior número é {maior}");
+            Console.ReadKey();
+            
         }
     }
 }

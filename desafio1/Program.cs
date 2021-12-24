@@ -6,6 +6,20 @@ namespace desafio1
     {
         static void Main(string[] args)
         {
+            /*
+             * Exercício 1/21:
+
+               Fazer um algoritmo para somar 2 números e multiplicar o resultado pelo segundo número.
+
+
+               Como deve funcionar:
+
+               Receber o 1° número;
+               Receber o 2° número:
+               Realizar o cálculo acima;
+               Mostrar o resultado na tela;
+             */
+
             Console.Write("Digite um número:");
             Double one = Double.Parse(Console.ReadLine());
             Console.Write("Digite outro número:");
