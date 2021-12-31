@@ -37,8 +37,7 @@ namespace desafio3
                 
             }
 
-
-
+            Console.ReadKey();
         }
     }
 }

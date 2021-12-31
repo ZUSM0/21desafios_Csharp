@@ -32,6 +32,7 @@ namespace desafio5
             float average = (one + two + three + four + five) / 5;
 
             Console.WriteLine($"\r\nA média dos valores digitados é {average}");
+            Console.ReadKey();
         }
     }
 }
