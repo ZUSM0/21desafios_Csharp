@@ -13,15 +13,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "desafio4", "desafio4\desafi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "desafio5", "desafio5\desafio5.csproj", "{160FADD6-23AE-41FD-B405-40F70180B28F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "desafio6", "desafio6\desafio6.csproj", "{90DDBA4D-1986-4452-B77B-5A51B364A833}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "desafio6", "desafio6\desafio6.csproj", "{90DDBA4D-1986-4452-B77B-5A51B364A833}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "desafio7", "desafio7\desafio7.csproj", "{83376C24-B66C-43B7-8B01-B97E176324C8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "desafio7", "desafio7\desafio7.csproj", "{83376C24-B66C-43B7-8B01-B97E176324C8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "desafio8", "desafio8\desafio8.csproj", "{9959437B-486D-4998-9B1C-DAB3C4E6F154}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "desafio8", "desafio8\desafio8.csproj", "{9959437B-486D-4998-9B1C-DAB3C4E6F154}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "desafio9", "desafio9\desafio9.csproj", "{5E200CCA-C0DC-48EC-91FC-4712F4E17B65}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "desafio9", "desafio9\desafio9.csproj", "{5E200CCA-C0DC-48EC-91FC-4712F4E17B65}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "desafio10", "desafio10\desafio10.csproj", "{EF8DC5ED-A728-49CF-A2A7-F5E56865FC2B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "desafio10", "desafio10\desafio10.csproj", "{EF8DC5ED-A728-49CF-A2A7-F5E56865FC2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "desafio11", "desafio11\desafio11.csproj", "{B60DC9C3-542E-455A-9B72-FE298DF710C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "desafio12", "desafio12\desafio12.csproj", "{264827FC-D24D-46DB-87E6-F95585978788}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "desafio13", "desafio13\desafio13.csproj", "{0D027CD2-FF4E-4BC1-B792-857196035FE3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +75,18 @@ Global
 		{EF8DC5ED-A728-49CF-A2A7-F5E56865FC2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EF8DC5ED-A728-49CF-A2A7-F5E56865FC2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EF8DC5ED-A728-49CF-A2A7-F5E56865FC2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B60DC9C3-542E-455A-9B72-FE298DF710C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B60DC9C3-542E-455A-9B72-FE298DF710C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B60DC9C3-542E-455A-9B72-FE298DF710C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B60DC9C3-542E-455A-9B72-FE298DF710C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{264827FC-D24D-46DB-87E6-F95585978788}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{264827FC-D24D-46DB-87E6-F95585978788}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{264827FC-D24D-46DB-87E6-F95585978788}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{264827FC-D24D-46DB-87E6-F95585978788}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D027CD2-FF4E-4BC1-B792-857196035FE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D027CD2-FF4E-4BC1-B792-857196035FE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D027CD2-FF4E-4BC1-B792-857196035FE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D027CD2-FF4E-4BC1-B792-857196035FE3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
