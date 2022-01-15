@@ -33,17 +33,44 @@ namespace desafio14
                6 x 8  = 48
                6 x 9  = 54
                6 x 10 = 60
+
+            Mudança pessoal: Coloquei um laço de repetição para o programa perguntar
+            ao usuário se ele deseja ver mais alguma tabuada. Caso ele não queria,
+            o programa será encerrado.
              */
 
-            Console.Write("Qual número você deseja ver a tabuada?");
-            int number = int.Parse(Console.ReadLine());
+            while (true){
 
-            Console.Clear();
-            Console.WriteLine($"tabuada do número {number}:\r\n");
-            for (int n = 1; n <=10; n++){
-                int result = number * n;
-                Console.WriteLine($"{n} x {number} = {result}");
+                Console.Write("Qual número você deseja ver a tabuada?");
+                int number = int.Parse(Console.ReadLine());
+
+                Console.Clear();
+                Console.WriteLine($"tabuada do número {number}:\r\n");
+                for (int n = 1; n <= 10; n++)
+                {
+                    int result = number * n;
+                    Console.WriteLine($"{n} x {number} = {result}");
+                }
+
+                Console.Write("\r\nDeseja ver mais alguma tabuada?(S/N)");
+                string choice = Console.ReadLine().Substring(0).ToLower();
+
+                if (choice == "sim" || choice == "s")
+                {
+                    Console.WriteLine("-Okay. Vamos para mais uma operação...\r\n");
+                }
+
+                else{
+                    Console.Clear();
+                    Console.WriteLine("Obrigado por usar o programa!!");
+                    break;
+                }
             }
+            
+
+            
+            
         }
+
     }
 }
